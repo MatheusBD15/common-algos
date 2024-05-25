@@ -3,6 +3,7 @@ using namespace std;
 
 // Recursive function to return
 // gcd of a and b
+// O(min(a,b))
 int gcd(int a, int b)
 {
   // Everything divides 0
