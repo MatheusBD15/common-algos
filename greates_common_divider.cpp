@@ -1,4 +1,5 @@
 #include <iostream>
+#include <numeric>
 using namespace std;
 
 // Recursive function to return
@@ -28,5 +29,8 @@ int main()
   int a = 98, b = 56;
   cout << "GCD of " << a << " and " << b << " is "
        << gcd(a, b);
+
+  // o(log n)
+  int gcd = std::gcd(a, b);
   return 0;
 }
